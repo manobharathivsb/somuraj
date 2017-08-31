@@ -1,0 +1,12 @@
+#include<stdio.h>
+Void main()
+{
+Int n, sum=1;
+Printf("enter the number");
+scanf("%d",&n); 
+for(i=1;i<=n; i++);
+{
+sum=sum*n;
+}
+Printf("factorial is %d",sum);
+}
